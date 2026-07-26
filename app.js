@@ -167,8 +167,25 @@ function addTwoNumbers(num1,num2){
 console.log(addTwoNumbers(4,2))
 
 const addTwoNumbersAgain = function(num1, num2){
+    const teacherName = 'Sayed Hamed'
     return num1 + num2
 }
+
+
+console.log(addTwoNumbersAgain(4,2))
+
+
+const addTwoNumbersAgainAgain = (num1, num2) => num1 + num2
+
+console.log(addTwoNumbersAgainAgain(4,2))
+
+
+const numberTimesItself = number=> number * number
+
+console.log(numberTimesItself(5))
+
+
+console.log(typeof true)
 
 
 console.log('')
