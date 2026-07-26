@@ -157,3 +157,23 @@ console.log('')
 console.log('')
 console.log('')
 console.log('')
+
+
+
+console.log('---------------------------')
+function addTwoNumbers(num1,num2){
+    return num1 + num2
+}
+console.log(addTwoNumbers(4,2))
+
+const addTwoNumbersAgain = function(num1, num2){
+    return num1 + num2
+}
+
+
+console.log('')
+console.log('')
+console.log('')
+console.log('')
+console.log('')
+console.log('')
