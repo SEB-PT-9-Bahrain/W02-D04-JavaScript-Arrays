@@ -98,4 +98,12 @@ splice()
 
 Methods that dont
 
+includes()
+indexOf()
+slice()
 */
+
+
+// slice(starting, stopping): makes a copy of the array at the indexes. NOT INCLUDING STOPPING
+const slicedStudents = myStudents.slice(1,3)
+console.log(slicedStudents)
