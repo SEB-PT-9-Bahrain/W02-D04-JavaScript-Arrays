@@ -133,3 +133,27 @@ console.log(arrayGreeting.join(' '))
 for(let i = 0; i<myStudents.length; i++){
     console.log(myStudents[i])
 }
+
+
+// for of
+
+console.log('For Of')
+for(let oneStudent of myStudents){
+    console.log(oneStudent)
+}
+
+// .forEach()
+myStudents.forEach(function(oneStudent){
+    console.log(oneStudent)
+})
+
+
+
+
+
+console.log('')
+console.log('')
+console.log('')
+console.log('')
+console.log('')
+console.log('')
