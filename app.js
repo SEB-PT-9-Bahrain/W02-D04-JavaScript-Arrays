@@ -101,9 +101,29 @@ Methods that dont
 includes()
 indexOf()
 slice()
+at()
 */
 
 
 // slice(starting, stopping): makes a copy of the array at the indexes. NOT INCLUDING STOPPING
-const slicedStudents = myStudents.slice(1,3)
+const slicedStudents = myStudents.slice(0,3)
 console.log(slicedStudents)
+
+
+// .at()
+console.log(myStudents[2])
+console.log(myStudents.at(-1))
+
+
+
+// join() and split()
+
+// split(): converts my string into array
+const myGreeting = 'Good Morning Sayed Hamed'
+
+const arrayGreeting = myGreeting.split(' ')
+
+console.log(arrayGreeting)
+
+
+console.log(arrayGreeting.join(' '))
