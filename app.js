@@ -127,3 +127,8 @@ console.log(arrayGreeting)
 
 
 console.log(arrayGreeting.join(' '))
+
+
+for(let i = 0; i<myStudents.length; i++){
+    console.log(myStudents[i])
+}
